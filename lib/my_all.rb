@@ -7,7 +7,7 @@ def my_all?(collection)
     block_return_values.push(yield(collection[i]))
     i+=1
   end
-  if block_returns_values.includes?(false)
+  if block_return_values.includes?(false)
     false
   else
     true
